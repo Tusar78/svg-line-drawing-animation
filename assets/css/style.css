@@ -47,8 +47,8 @@ body {
   stroke-linecap: round;
   stroke-dasharray: 67;
   stroke-dashoffset: 67;
-  -webkit-animation: drawing 5s cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite alternate;
-          animation: drawing 5s cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite alternate;
+  -webkit-animation: drawing 5s forwards;
+          animation: drawing 5s forwards;
 }
 
 @-webkit-keyframes drawing {
